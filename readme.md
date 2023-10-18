@@ -6,6 +6,8 @@ Corrently not support segmented download, "progress" event or cancel sending tas
 
 Some api were not tested. I don't know whether it could work correctly.
 
+**This repo is for ZeppOS device，not app-side**. see [CuberQAQ/zepp-fs-side: Polyfill of transferFile API for ZeppOS 1.0/2.0/2.1 app-side](https://github.com/CuberQAQ/zepp-transfer-file-side) for app-side polyfill.
+
 ## 1. Install
 
 Use Command `npm i @cuberqaq/transfer-file --save` to install transfer-file in your ZeppOS Miniapp project.
@@ -18,7 +20,7 @@ In your app-side JavaScript source file, use this to import transfer-file:
 import { TransferFile } from "@cuberqaq/transfer-file";
 ```
 
-Then you can use the methods in the same way you do with @zos/fs module. API Document see [Zepp OS Developers Documentation](https://docs.zepp.com/docs/reference/device-app-api/newAPI/transfer-file/TransferFile/)
+Then you can use the methods in the same way you do with @zos/ble/TransferFile. API Document see [Zepp OS Developers Documentation](https://docs.zepp.com/docs/reference/device-app-api/newAPI/transfer-file/TransferFile/)
 
 ## 3. Example:
 
