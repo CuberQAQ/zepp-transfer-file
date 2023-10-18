@@ -2,7 +2,7 @@
 
 Polyfill of @zos/ble/transfer-file API for ZeppOS 2.0/2.1 device.
 
-Corrently not support segmented download, "progress" event or cancel sending task.
+Corrently not support "progress" event or cancel sending task. 
 
 Some api were not tested. I don't know whether it could work correctly.
 
@@ -71,3 +71,5 @@ Page({
   }
 })
 ```
+
+By the way, it seems that the transfering speed could only reach 8kb/s :\(
