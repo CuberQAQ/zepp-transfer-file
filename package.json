@@ -1,0 +1,33 @@
+{
+  "name": "@cuberqaq/transfer-file",
+  "version": "1.0.2-pre",
+  "description": "Polyfill of @zos/ble/transfer-file API for ZeppOS 2.0/2.1",
+  "main": "index.js",
+  "scripts": {
+    "compile": "esbuild index.ts --outfile=index.js --format=esm --platform=node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuberQAQ/zepp-transfer-file.git"
+  },
+  "keywords": [
+    "zeppos",
+    "zepp"
+  ],
+  "type": "module",
+  "types": "index.d.ts",
+  "author": "CuberQAQ",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CuberQAQ/zepp-transfer-file/issues"
+  },
+  "homepage": "https://github.com/CuberQAQ/zepp-transfer-file#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@zeppos/device-types": "^3.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@cuberqaq/path-polyfill": "^1.0.0"
+  }
+}
