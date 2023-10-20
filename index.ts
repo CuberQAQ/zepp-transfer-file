@@ -6,6 +6,7 @@ import {
   DataType,
 } from "./lib/message.js";
 import { EventBus } from "@zos/utils";
+import "./lib/device-polyfill.js"; // fk. If not import, the simulator&watch will freeze with no log output when using Promise. I had been debug for a few hours to find this problem. FK!
 import * as fs from "@zos/fs";
 import * as hmBle from "@zos/ble";
 import * as hmApp from "@zos/app";

@@ -5,6 +5,7 @@ import {
   DataType
 } from "./lib/message.js";
 import { EventBus } from "@zos/utils";
+import "./lib/device-polyfill.js";
 import * as fs from "@zos/fs";
 import * as hmBle from "@zos/ble";
 import * as hmApp from "@zos/app";
