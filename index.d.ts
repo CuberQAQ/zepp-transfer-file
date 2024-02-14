@@ -106,12 +106,12 @@ declare class Inbox {
  */
 declare class Outbox {
   /**
-   * Enquene a file to sending quene. 添加文件至发送队列
+   * Enqueue a file to sending quene. 添加文件至发送队列
    * @param fileName The path to the file.
    * @param params A customized file transfer object, retrieved from FileObject on the receiving end.
    * @returns Returns a `FileObject`. 返回`FileObject`文件发送对象
    */
-  enqueneFile(fileName: string, params?: object): FileObject;
+  enqueueFile(fileName: string, params?: object): FileObject;
 }
 
 declare class FileObject {
