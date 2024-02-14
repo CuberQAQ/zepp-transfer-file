@@ -1,6 +1,6 @@
 {
   "name": "@cuberqaq/transfer-file",
-  "version": "1.0.4-pre",
+  "version": "1.0.5-pre",
   "description": "Polyfill of @zos/ble/transfer-file API for ZeppOS 2.0/2.1",
   "main": "index.js",
   "scripts": {
